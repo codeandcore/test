@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin:0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:#F1F1F1;
+}
+p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: sans-serif;
+    text-align:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+h1 {
+    font-family: sans-serif;
+    line-height: 1.1em;
+    font-size: 30px;
+    text-align:left;
+    font-weight:100;
+}
+h2{
+    font-weight:100;
+    font-size:22px;
+}
+.menutop{
+    height:60px;
+    background-color:#FFFFFF;
+    padding:10px;
+}
+li {
+    list-style:none;
+    color:white;
+    background-color:#7c9d94;
+    font-weight:bold;
+    line-height:60px;
+    margin-left:-80px;
+    padding-left:20px;
+    border-bottom:solid;
+    border-bottom-color:white;
+}
+li a{
+    color:white;
+    text-decoration:none;
+}
+ul :hover{
+    background-color:#013042;
+}
+ul{
+    margin:0;
+}
+.box {
+    font-family:  sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align:left;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#013042;
+    padding-left: 20px;
+}
+.fotoklein{
+    min-width:280px;
+    width:100%;
+    height:100px;
+    background-image:url(../images/lt-marine-safety-about-us.jpg);
+}
+menu{
+    width:250px;
+    text-align:left;
+    margin-right:40px;
+    margin-top:30px;
+    float:left;
+}
+.content{
+    float:left;
+    max-width:850px;
+}
+.clear{
+    clear:both;
+}
+.tussentitel{
+    color:#E0B100;
+    line-height: 1.5;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align:left;
+    font-weight:bold;
+    padding-left:20px;
+}
+
+header{
+    height:600px;
+    background-image:url(../images/lt-marine-safety-header.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;	
+}
+.logo{
+    height:60px;
+    width:160px;
+    background-image:url(../images/logo-lt-marine-safety.svg);
+    background-repeat:no-repeat;
+    margin-left:20px;
+    content:"";
+    float:left;
+    margin-right:20px;
+}
+
+.cta p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-shadow: 2px 2px 5px #787878;
+}
+header a{
+    display: block;
+    margin-left: auto;
+    width: 100px;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    color: #013042;
+    background-color: #e0b100;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 6px;
+    box-shadow: 0px 0px 6px;
+}
+.menuitem a{
+    padding:0;
+    background-color:transparent;
+    -webkit-box-shadow:none;
+    box-shadow:none;	
+    font-size:14px;
+    border-radius:0px;
+    float:left;
+    font-weight:500;
+    margin-left:0px;
+    margin-right:20px;
+    text-transform:uppercase;
+    line-height:60px;
+    color:#013042;
+}
+.headerbase{
+    background-image:url(../images/header-base.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:left;
+    content:"";
+    height:200px;
+    margin-top:-120px;
+    margin-left:-60px;
+}
+article{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:60px;
+    margin-top:-100px;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+.wrapblock{
+    margin-top:50px;
+    margin-bottom:50px;
+    display: -webkit-box; 
+    display: -ms-flexbox;  
+    display: -webkit-flex; 
+    display: flex; 
+    flex-wrap:wrap;    
+
+}
+.homeblock{
+    width:300px;
+    padding-bottom:20px;
+    background-color:#FFFFFF;	  
+    margin-left:auto;
+    margin-right:auto;   
+    margin-bottom:30px;
+}
+.second{
+    background-image:url(../images/lt-marine-safety-services.jpg);
+}
+.third{
+    background-image:url(../images/lt-marine-safety-prices.jpg);
+}
+footer{
+    height:250px;
+    background-color:#013042;
+    background-image:url(../images/stripes.png);
+    background-position:right;
+    background-repeat:no-repeat;
+}
+
+
+.main_form *{box-sizing: border-box;}
+.main_form img{max-width: 100%;}
+.main_form input[type="text"]{border: 1px solid #043042; padding:0 15px; height: 35px; font-size: 14px; width: 100%; -o-transition: 0.4s ease all; -webkit-transition: 0.4s ease all; -moz-transition: 0.4s ease all; transition: 0.4s ease all; color: #043042; font-weight: 300;}
+.main_form input[type="text"]:focus{border-color: #e0b100; outline: none}
+.main_form{width: 685px; margin: 0 auto; background: #fff; position: relative; -o-box-shadow: 0 0px 40px 0px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0px 40px 0px rgba(0,0,0,0.1); -moz-box-shadow: 0 0px 40px 0px rgba(0,0,0,0.1); box-shadow: 0 0px 40px 0px rgba(0,0,0,0.1);}
+.main_form h1{text-align: center; color: #fff; margin: 0;}
+.main_form .top_sec{position: absolute; width: 100%; top: 10%; text-align: center; left: 0;}
+.main_form .top_sec img{margin-bottom: 30px;}
+.main_form h1 span{color: #ddaf26;}
+.form_system{text-align: center; width: 500px; margin: 0 auto; padding-bottom: 35px; padding-top: 25px; margin-bottom: 15px; position: relative;}
+.form_system label{display:block; padding-left: 0; max-width: 350px; width: 100%; margin: 0 auto; margin-bottom: 15px;}
+.form_system label span{display: inline-block; width: 205px;}
+.attention{display: none !important;}
+.submit{margin-top: 15px; padding: 10px 25px; background-color: #e0b100; color: #fff; font-weight: 300; -o-transition: 0.4s ease all; -webkit-transition: 0.4s ease all; -moz-transition: 0.4s ease all; transition: 0.4s ease all; outline: none; border: none; font-weight: 400;}
+.main_form .form_system .col_1{width: 49%; display: inline-block; margin-right: 2%; float: left;}
+.main_form .form_system .col_1.ml0{ margin-right: 0px;}
+.submit span{position: relative; top: -2px;}
+.submit img{width: 15px; display: inline-block; vertical-align: middle;}
+.submit:hover{cursor: pointer; background: #043042;}
+.pop_thnk{position: fixed; width: 100%; background:rgba(0,0,0,0.7); height: 100%; z-index: 99999; display: none;}
+.thnk .pop_thnk{display: block; text-align: center; padding-top: 15%;}
+.thnk .pop_thnk p{text-align: center; color: #fff; font-size: 35px;}
+.thnk .pop_thnk a{position: absolute; font-size: 35px; right: 20px; top: 20px; text-decoration: none; color: #fff;}
+
+@media only screen and (max-width:959px){
+    .form_page .headerbase{height: 140px;}
+    .thnk .pop_thnk{padding-top: 45%;}
+
+}
+@media only screen and (max-width:767px)
+{
+    .form_page .headerbase {height: 135px;}
+    .main_form h1{font-size: 25px;}
+    .main_form{width: 100%;}
+    .form_system{max-width: 500px; width: 100%;}
+    .main_form .top_sec{top: 8%;}
+}
+@media only screen and (max-width: 500px)
+{
+    .main_form h1{font-size: 18px;}
+    .main_form .top_sec img {margin-bottom: 20px;}
+    .form_system{padding: 15px;}
+    .main_form .top_sec img{width: 20px;}
+    .main_form .top_sec{top: 5%;}
+    .main_form .form_system .col_1{width: 100%; margin-right: 0; margin-bottom: 15px;}
+    .main_form .form_system .col_1.ml0{margin-bottom: 0;}
+}
