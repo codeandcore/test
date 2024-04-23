@@ -20,7 +20,7 @@ jobs:
         ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
 
     - name: Sync files
-      run: rsync -avz --exclude '.git*' ./ ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/public_html
+      run: rsync -avz --exclude '.git*' ./ ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/path/to/your/cloudways/directory
       env:
         HOST: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
