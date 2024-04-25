@@ -18,6 +18,7 @@ jobs:
         echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
+        ssh -vvv -l *** ***@*** rsync --server -vvvvlogDtprze.iLsfxCIvu . /master/applications/yebcquwpvc/public_html
 
     - name: Sync files
       run: rsync -avz -vvv --exclude '.git*' ./ ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/master/applications/yebcquwpvc/public_html
